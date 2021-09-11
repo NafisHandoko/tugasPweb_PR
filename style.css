@@ -130,6 +130,7 @@ a.p-expand:hover{
 figure{
   justify-content: center;
   margin: 0;
+  position: relative;
 }
 
 .slides{
@@ -148,6 +149,15 @@ img{
   display: block;
   animation-name: sliding;
   animation-duration: 0.7s;
+}
+
+.prev,.next{
+  position: absolute;
+  top: 50%;
+}
+
+.next{
+  right: 0%;
 }
 
 @keyframes sliding {
