@@ -123,6 +123,10 @@ a.p-expand{
   cursor: pointer;
 }
 
+a.p-expand:hover{
+  color: rgb(0, 106, 212);
+}
+
 figure{
   justify-content: center;
   margin: 0;
@@ -136,7 +140,7 @@ figure{
 
 img{
   min-width: 170px;
-  aspect-ratio: 6/5;
+  aspect-ratio: 6/3;
   max-width: 100%;
   flex: 1;
   padding: 10px 20px 10px 20px;
