@@ -155,12 +155,11 @@ img{
   position: absolute;
   top: 50%;
   border-radius: 100%;
-  width: 50px;
+  width: clamp(30px,3.5vw,50px);
   aspect-ratio: 1;
   background-color: dodgerblue;
   border: none;
   color: white;
-  font-size: 20px;
 }
 
 .next{
