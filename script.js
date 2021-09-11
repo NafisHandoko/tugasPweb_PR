@@ -13,3 +13,10 @@ function displaySlide(slideNum){
   }
   slide[slideNow].style.display = 'block';
 }
+
+$(document).ready(function(){
+  $(".p-expand").click(function(){
+    $("p.p-detail").toggleClass('active');
+    $(".p-expand").html(($(".p-expand").html() === "Read more" ? "Show less" : "Read more"));
+  });
+});
