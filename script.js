@@ -16,6 +16,7 @@ function displaySlide(slideNum){
 
 $(document).ready(function(){
   $(".p-expand").click(function(){
+    alert("You are expanding/collapsing description of the article");
     $("p.p-detail").toggleClass('active');
     $(".dots").toggleClass('inactive');
     $(".p-expand").html(($(".p-expand").html() === "Read more" ? "Show less" : "Read more"));
