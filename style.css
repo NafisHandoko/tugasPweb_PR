@@ -162,17 +162,6 @@ img{
   right: 5%;
 }
 
-@keyframes sliding {
-  from {
-    transform: scale(0.6);
-    opacity: .4;
-  }
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
 @keyframes sliding2{
   from{opacity: .4}
   to{opacity: 1}
